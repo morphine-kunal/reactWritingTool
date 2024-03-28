@@ -1,0 +1,106 @@
+.btn {
+  background-color: none;
+  padding: 10px 18px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.inmodal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.fileCon {
+  width: 102px;
+  height: 102px;
+  border: 1px dashed #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal2Con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 6px;
+}
+
+.modalinputCon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalinputCon .input {
+  display: none;
+}
+
+.input2, .input3{
+    width: 90%;
+    margin: 0 auto;
+    padding: 6px;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+.text {
+  font-size: 1rem;
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 200px;
+}
+
+.btnCon{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.btnCon button{
+    width: 100%;
+    font-size: 1rem;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    padding: 5px 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btnCon button:hover{
+    background-color: rgb(9, 132, 255);
+}
+.card:hover{
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5) !important;
+}
+.edit{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.edit button{
+    z-index: 5;
+}
+.del{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+.con {
+  width: 85%;
+  margin: auto;
+  margin-top: 25px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.inputCon {
+  margin: 5px 0px;
+  width: 100%;
+}
+.inputCon input {
+  width: 100%;
+  padding: 7px 8px;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  outline: none;
+}
+.textCon {
+  width: 100%;
+  margin: 5px 0px;
+  position: relative;
+}
+ textarea {
+  width: 100%;
+  padding: 20px 8px;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  outline: none;
+}
+.textCon .remaining{
+    position: absolute;
+    top: -9px;
+    right: 5px;
+    font-size: smaller;
+}
+.butn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 5px 0px;
+}
+.butn button{
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 4px 16px;
+    border-radius: 5px;
+    transition: 0.3s ;
+    cursor: pointer;
+}
+.butn button:hover{
+    background-color: white;
+    color: black;
+}
+
+.editorButtons{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 8px;
+}
+
+.editorButtons button{
+    background-color: #3e3e3e;
+    font-size: 1rem;
+    font-weight: 900;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.drop1 {
+    padding: 8px 12px; /* Adjust padding as needed */
+    font-size: 10px; /* Set initial font size */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 4px; /* Add border radius */
+    background-color: #242424; /* Set background color */
+    color: #fff; /* Set text color */
+    cursor: pointer; /* Show pointer cursor on hover */
+    outline: none;
+  }
+  
+  .drop1:hover {
+    border-color: #999; /* Change border color on hover */
+  }
+  
+  /* Style dropdown arrow */
+  .drop1::after {
+    content: '\25BC'; /* Unicode character for downward arrow */
+    position: absolute;
+    top: calc(50% - 6px); /* Center vertically */
+    right: 10px; /* Adjust as needed */
+    color: #666; /* Arrow color */
+  }
+  
+  /* Style dropdown arrow on hover */
+  .drop1:hover::after {
+    color: #333; /* Change arrow color on hover */
+  }
+  
