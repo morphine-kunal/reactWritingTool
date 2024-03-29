@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
-import Home from "./components/pages/home";
-import Text from "./components/pages/text";
+import Home from "./pages/home";
+import Text from "./pages/text";
 import BlockProvider from "./Store/block-provider";
 
 function App() {
